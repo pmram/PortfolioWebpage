@@ -18,52 +18,63 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Spectral:wght@300&display=swap" rel="stylesheet">
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
 </head>
 
 <body>
+  <!-- Title Section -->
   <section id="title" class="colored">
-    <div class="container">
+    <div class="container content">
       <div class="row">
-        <div class="col-lg-6 col-sm-12">
+        <div class="col-lg-8 col-sm-12">
           <h2>Future is now!</h2>
+          <p class="subtitle">Dreaming of a brighter future and learing the trade</p>
         </div>
-        <div class="col-lg-6 col-sm-12">
+        <div class="col-lg-4 col-sm-12">
           <img class="avatar" src="images\Gearedwolf Avatar.png" alt="">
         </div>
       </div>
     </div>
   </section>
-  <section id="description">
+
+  <!-- Description Section -->
+  <section id="description" class="uncolored">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 col-sm-12">
-          <p>Future is now!</p>
+        <div class="col-lg-4 col-sm-12 description-box">
+          <h3>Continouos Growth</h3>
+          <p>Nascetur eu nibh vestibulum amet gravida nascetur praesent</p>
         </div>
-        <div class="col-lg-4 col-sm-12">
-          <p>Future is now!</p>
+        <div class="col-lg-4 col-sm-12 description-box">
+          <p>Feugiat accumsan lorem eu ac lorem amet sed accumsan donec. Blandit orci porttitor semper. Arcu phasellus tortor enim mi nisi praesent dolor adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor accumsan consequat adipiscing lorem dolor.</p>
         </div>
-        <div class="col-lg-4 col-sm-12">
-          <p>Future is now!</p>
+        <div class="col-lg-4 col-sm-12 description-box">
+          <p>Morbi enim nascetur et placerat lorem sed iaculis neque ante adipiscing adipiscing metus massa. Blandit orci porttitor semper. Arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus. Feugiat lorem ipsum dolor nullam.</p>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- Projects Section -->
   <section id="projects" class="colored">
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h2>Featured Projects</h2>
+          <h2 class="title-light">Featured Projects</h2>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-4 col-sm-12">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Project 1</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Morse Converter API</h5>
+              <p class="card-text">Allows the conversion of a string in an equivalent string of morse code.</p>
+              <a href="https://github.com/pmram/MorseCodeConverter" class="btn btn-dark">Open in Github</a>
             </div>
           </div>
         </div>
@@ -72,7 +83,7 @@
             <div class="card-body">
               <h5 class="card-title">Project 2</h5>
               <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-dark">Open in Github</a>
             </div>
           </div>
         </div>
@@ -81,6 +92,46 @@
             <div class="card-body">
               <h5 class="card-title">Project 3</h5>
               <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-dark">Open in Github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Misc Section -->
+  <section id="misc" class="uncolored">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="title-dark">Misc interests</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Modelling</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Animations</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Drawing</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
@@ -88,39 +139,36 @@
       </div>
     </div>
   </section>
-  <section id="misc">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-sm-12">
-          <p>Future is now!</p>
-        </div>
-        <div class="col-lg-4 col-sm-12">
-          <p>Future is now!</p>
-        </div>
-        <div class="col-lg-4 col-sm-12">
-          <p>Future is now!</p>
-        </div>
-      </div>
-    </div>
-  </section>
+
+  <!-- Hobbies Section -->
   <section id="hobbies" class="colored">
     <div class="container">
       <div class="row">
-        <div class="col-4">
+        <div class="col-lg-8 col-sm-0">
+        </div>
+        <div class="col-lg-4 col-sm-12">
           <p>Hobbies</p>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- Contacts Section -->
   <section id="contacts">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-sm-12">
-          <p>Future is now!</p>
-        </div>
-      </div>
+      <h2 class="title-dark">Get In Touch</h2>
+      <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+      <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+      <a class="btn" href="mailto:name@gmail.com">CONTACT ME</a>
     </div>
   </section>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/pmramaia/">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/pmram/">Github</a>
+    <p class="copyright">© 2022 Pedro Maia.</p>
+  </div>
+
   <script src="js/scripts.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
