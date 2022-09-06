@@ -31,8 +31,10 @@ section {
   margin: 0 50px
 }
 
-.description-box {
-  padding: 0 0 40px 40px;
+.description-text {
+  padding: 0 0 32px 50px;
+  background-color: white;
+  opacity:0.6;
 }
 
 .bottom-container {
@@ -48,6 +50,13 @@ section {
   text-align: right;
 }
 
+.scrolled-down{
+  transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+  transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+
 #title {
   height: 100vh;
   color: #cad2c5;
@@ -59,6 +68,10 @@ section {
   font-family: 'Spectral', serif;
 }
 
+#description {
+  background-image: url('C:/Users/pmram/github/PortfolioWebpage/images/IMG_7889.JPG');
+  background-size: cover;
+}
 
 #contacts {
   text-align: center;
@@ -70,12 +83,17 @@ section {
   }
 
   #title {
-    padding-top: 100px;
     text-align: center;
   }
 
   #title h2 {
     text-align: center;
+  }
+
+  .description-text {
+    padding: 20px;
+    margin: 5px;
+    font-size: 14px;
   }
 }
 
@@ -85,12 +103,4 @@ section {
     width: 120px;
   }
 
-  #title {
-    padding-top: 100px;
-    text-align: center;
-  }
-
-  #title h2 {
-    text-align: center;
-  }
 }
