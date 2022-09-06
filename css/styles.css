@@ -69,7 +69,7 @@ section {
 }
 
 #description {
-  background-image: url('C:/Users/pmram/github/PortfolioWebpage/images/IMG_7889.JPG');
+  background-image: url('../images/IMG_7889.JPG');
   background-size: cover;
 }
 
