@@ -22,6 +22,18 @@ section {
   margin: 0 0 20px 20px;
 }
 
+.btn-color {
+  background-color: #2f3e46;
+}
+
+.btn-clear {
+  background-color: #cad2c5;
+}
+
+.btn-clear:hover {
+  background-color: #84a98c;
+}
+
 .colored {
   background-color: #354f52;
 }
@@ -73,6 +85,11 @@ section {
   background-size: cover;
 }
 
+#misc {
+  background-image: url('../images/IMG_7579.JPG');
+  background-size: cover;
+}
+
 #contacts {
   text-align: center;
 }
@@ -94,6 +111,14 @@ section {
     padding: 20px;
     margin: 5px;
     font-size: 14px;
+  }
+
+  .autohide-column {
+    display: none;
+  }
+
+  .card-img-top {
+    display: none;
   }
 }
 
