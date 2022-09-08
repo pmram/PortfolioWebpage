@@ -73,6 +73,12 @@ section {
   transform:translateY(0); transition: all 0.3s ease-in-out;
 }
 
+.footer-link {
+  font-size: 32px;
+  margin: 0 10px;
+  color: #354f52;
+}
+
 #title {
   height: 100vh;
   color: #cad2c5;

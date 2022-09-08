@@ -26,3 +26,5 @@ document.addEventListener("DOMContentLoaded", function(){
 
 });
 // DOMContentLoaded  end
+
+document.querySelector('#copyright-year').innerText = new Date().getFullYear();
